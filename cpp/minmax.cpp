@@ -43,21 +43,17 @@ struct Pair getMinMax(int arr[], int n)
 	}
 	return minmax;
 }
-
 // Driver code
 int main()
 {
 	int arr[] = { 1000, 11, 445,
 				1, 330, 3000 };
 	int arr_size = 6;
-	
 	struct Pair minmax = getMinMax(arr, arr_size);
-	
 	cout << "Minimum element is "
 		<< minmax.min << endl;
 	cout << "Maximum element is "
 		<< minmax.max;
-		
 	return 0;
 }
 
