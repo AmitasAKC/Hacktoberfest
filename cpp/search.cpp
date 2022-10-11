@@ -1,8 +1,6 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
-
 void findFirstAndLast(int arr[], int n, int x)
 {
 	int first = -1, last = -1;
@@ -19,7 +17,6 @@ void findFirstAndLast(int arr[], int n, int x)
 	else
 		cout << "Not Found";
 }
-
 int main()
 {
 	int arr[] = { 1, 2, 2, 2, 2, 3, 4, 7, 8, 8 };
